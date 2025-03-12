@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Flash Préstamos</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width height=device-height initial-scale=1.0 maximum-scale=1.0 user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body>
+    <div class="page">
+      <header class="section page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-minimal" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!-- RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle="#rd-navbar-nav-wrap-1"><span></span></button>
+                  
+                </div>
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap" id="rd-navbar-nav-wrap-1">
+                    <!-- RD Navbar Nav-->
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Casero</a></li>
+                      
+                      
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="contacts.html">Contactos</a></li>
+                      
+
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="privacy.html">Política</a></li>
+                    </ul>
+                  </div>
+                  <!-- RD Navbar Search-->
+                  
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      
+      <!-- FScreen-->
+      <section class="section-halfscreen">
+        <div class="container-fluid">
+          <div class="row no-gutters" style="display: flex; height: 100vh; flex-wrap: wrap;">
+            <!-- Левая часть с текстом -->
+            <div class="col-md-6" style="display: flex; align-items: center; padding: 50px; background-color: #fff; width: 50%;">
+              <div>
+                <h2 style="font-weight: bold;">Flash <br><span style="color: #007bff;">Préstamos</span></h2>
+                <p>¡Descarga la aplicación ahora y descubre una amplia gama de opciones de préstamos para tomar decisiones financieras informadas!</p>
+                <a class="button button-primary" href="contacts.html" style="display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #007bff; color: #fff; text-decoration: none; border-radius: 5px;">Contacto</a>
+                <a class="button button-primary" href="privacy.html" style="display: inline-block; margin-top: 10px; padding: 10px 20px; background-color: #007bff; color: #fff; text-decoration: none; border-radius: 5px;">Politica de Privacidad</a>
+              </div>
+            </div>
+            <!-- Правая часть с изображением (скрывается на мобильных) -->
+            <div class="col-md-6 image-container" style="background-image: url('images/header-bg.jpg'); background-size: cover; background-position: center; height: 100vh; width: 50%; display: block;"></div>
+          </div>
+        </div>
+      </section>
+      <script>
+        function toggleImageVisibility() {
+          var imageDiv = document.querySelector('.image-container');
+          if (window.innerWidth <= 768) { // Скрываем картинку на мобильных устройствах
+            imageDiv.style.display = "none";
+          } else {
+            imageDiv.style.display = "block";
+          }
+        }
+        window.addEventListener('resize', toggleImageVisibility);
+        window.addEventListener('load', toggleImageVisibility);
+      </script>
+      
+      
+      
+      <div class="tabs-horizontal"></div>
+
+
+      <section class="section section-sm text-center">
+        <div class="container">
+          <!-- Owl Carousel-->
+          <div class="owl-carousel owl-carousel-1" data-items="2" data-sm-items="3" data-md-items="4" data-lg-items="5" data-dots="true" data-nav="false" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="false">
+            <div class="item wow-outer">
+              <div class="wow slideInLeft"><a class="link-image" href="https://www.openbank.es/"><img src="images/OpenBank.png" alt="" width="1000" height="222"/></a></div>
+            </div>
+            <div class="item wow-outer">
+              <div class="wow slideInLeft" data-wow-delay=".05s"><a class="link-image" href="https://www.bancosantander.es/"><img src="images/Santander.png" alt="" width="1000" height="175"/></a></div>
+            </div>
+            <div class="item wow-outer">
+              <div class="wow slideInLeft" data-wow-delay=".1s"><a class="link-image" href="https://www.bancsabadell.com"><img src="images/sabadell.png" alt="" width="1000" height="197"/></a></div>
+            </div>
+            <div class="item wow-outer">
+              <div class="wow slideInLeft" data-wow-delay=".15s"><a class="link-image" href="https://www.bancomediolanum.es"><img src="images/Mediolanum.png" alt="" width="1000" height="228"/></a></div>
+            </div>
+            <div class="item wow-outer">
+              <div class="wow slideInLeft" data-wow-delay=".2s"><a class="link-image" href="https://www.bankinter.com"><img src="images/bankinter.png" alt="" width="1000" height="149"/></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+<!-- Recent News-->
+<section class="section section-lg text-center">
+  <div class="container">
+    <h3 class="wow-outer"><span class="wow slideInDown">Capturas de pantalla de la aplicación.</span></h3>
+    <div class="row row-30">
+      <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+        <!-- Post Tiny-->
+        <article class="post-tiny wow fadeSlideInDown">
+          <a class="post-tiny-media" href="#">
+            <img src="images/screenshot1.png" alt="Market Research" width="1080" height="1920"/>
+          </a>
+          <!-- <h5 class="post-tiny-title"><a href="#">Flash Préstamos - display 1</a></h5> -->
+         
+        </article>
+        
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+        <!-- Post Tiny-->
+        <article class="post-tiny wow fadeSlideInDown" data-wow-delay=".05s"><a class="post-tiny-media" href="#"><img src="images/screenshot2.png" alt="" width="1080" height="1920"/></a>
+          <!-- <h5 class="post-tiny-title"><a href="#">Flash Préstamos - display 2</a></h5> -->
+          
+        </article>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+        <!-- Post Tiny-->
+        <article class="post-tiny wow fadeSlideInDown" data-wow-delay=".1s"><a class="post-tiny-media" href="#"><img src="images/screenshot3.png" alt="" width="1080" height="1920"/></a>
+          <!-- <h5 class="post-tiny-title"><a href="#">Flash Préstamos - display 3</a></h5> -->
+          
+        </article>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 wow-outer">
+        <!-- Post Tiny-->
+        <article class="post-tiny wow fadeSlideInDown" data-wow-delay=".15s"><a class="post-tiny-media" href="#"><img src="images/screenshot4.png" alt="" width="1080" height="1920"/></a>
+          <!-- <h5 class="post-tiny-title"><a href="#">Flash Préstamos - display 4</a></h5> -->
+          
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+      <!-- Small Features-->
+      <section class="section section-lg bg-gray-100">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-sm-6 col-lg-4 wow-outer">
+              <!-- Box Minimal-->
+              <article class="box-minimal">
+                <div class="box-minimal-icon linearicons-pie-chart wow fadeIn"></div>
+                <div class="box-minimal-main wow-outer">
+                  <h4 class="box-minimal-title wow slideInDown">Sobre nosotros</h4>
+                  <p class="wow fadeInUpSmall">Te ofrecemos un completo catálogo de préstamos, ayudándote a comparar ofertas de prestamistas confiables en un solo lugar.</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow-outer">
+              <!-- Box Minimal-->
+              <article class="box-minimal">
+                <div class="box-minimal-icon linearicons-briefcase wow fadeIn" data-wow-delay=".1s"></div>
+                <div class="box-minimal-main wow-outer">
+                  <h4 class="box-minimal-title wow slideInDown" data-wow-delay=".1s">Calculadora de Crédito</h4>
+                  <p class="wow fadeInUpSmall" data-wow-delay=".1s">Nuestra calculadora de préstamos integrada te permite no solo encontrar el préstamo ideal, sino también calcular plazos de pago, tasas de interés y cuotas mensuales, ayudándote a planificar tu presupuesto con inteligencia.</p>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow-outer">
+              <!-- Box Minimal-->
+              <article class="box-minimal">
+                <div class="box-minimal-icon linearicons-credit-card wow fadeIn" data-wow-delay=".2s"></div>
+                <div class="box-minimal-main wow-outer">
+                  <h4 class="box-minimal-title wow slideInDown" data-wow-delay=".2s">Información</h4>
+                  <p class="wow fadeInUpSmall" data-wow-delay=".2s">¡Descarga la aplicación ahora y descubre una amplia gama de opciones de préstamos para tomar decisiones financieras informadas!</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Advantages and Achievements-->
+      <section class="section section-lg text-center">
+        <div class="container">
+          <h3 class="wow-outer"><span class="wow slideInUp">Sobre nosotros</span></h3>
+
+          <p class="wow-outer"><span class="text-width-1 wow slideInDown">Si quieres elegir el mejor préstamo entre docenas de ofertas similares en el mercado, nuestra aplicación será tu mejor asistente. Te ofrecemos un completo catálogo de préstamos, ayudándote a comparar ofertas de prestamistas confiables en un solo lugar. Explora una variedad de opciones de financiamiento, incluyendo préstamos personales, de día de pago y a plazos. Consulta las ofertas disponibles, revisa los términos y condiciones, y elige la opción más adecuada de manera rápida y sencilla, sin tarifas ocultas. </span></p>
+          <p class="wow-outer"><span class="text-width-1 wow slideInDown">Mantente al día con las últimas promociones de las principales entidades financieras y accede a las mejores ofertas disponibles. Además, nuestra calculadora de préstamos integrada te permite no solo encontrar el préstamo ideal, sino también calcular plazos de pago, tasas de interés y cuotas mensuales, ayudándote a planificar tu presupuesto con inteligencia.  </span></p>
+          <p class="wow-outer"><span class="text-width-1 wow slideInDown">¡Descarga la aplicación ahora y descubre una amplia gama de opciones de préstamos para tomar decisiones financieras informadas!</span></p>
+
+          <div class="row row-50">
+            <div class="col-6 col-md-3 wow-outer">
+              <!-- Counter Minimal-->
+              <article class="counter-minimal wow slideInDown">
+                <div class="counter-minimal-icon linearicons-star"></div>
+                <div class="counter-minimal-main">
+                  <div class="counter">10000+</div>
+                </div>
+                <h5 class="counter-minimal-title">Usuarios satisfechos</h5>
+              </article>
+            </div>
+            <div class="col-6 col-md-3 wow-outer">
+              <!-- Counter Minimal-->
+              <article class="counter-minimal wow slideInDown">
+                <div class="counter-minimal-icon linearicons-folder"></div>
+                <div class="counter-minimal-main">
+                  <div class="counter">99</div><span class="value">%</span>
+                </div>
+                <h5 class="counter-minimal-title">Clientes satisfechos</h5>
+              </article>
+            </div>
+            <div class="col-6 col-md-3 wow-outer">
+              <!-- Counter Minimal-->
+              <article class="counter-minimal wow slideInDown">
+                <div class="counter-minimal-icon linearicons-flag"></div>
+                <div class="counter-minimal-main">
+                  <div class="counter">3+</div>
+                </div>
+                <h5 class="counter-minimal-title">Años de experiencia</h5>
+              </article>
+            </div>
+            <div class="col-6 col-md-3 wow-outer">
+              <!-- Counter Minimal-->
+              <article class="counter-minimal wow slideInDown">
+                <div class="counter-minimal-icon linearicons-lamp"></div>
+                <div class="counter-minimal-main">
+                  <div class="counter">20</div>
+                </div>
+                <h5 class="counter-minimal-title">Bancos de Confianza</h5>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CTA Thin-->
+      
+      <!-- Services-->
+      <section class="section section-lg bg-gray-100 text-center">
+        <div class="container">
+          <h3 class="wow-outer"><span class="wow slideInUp">Lo que ofrecemos</span></h3>
+          <div class="row row-30">
+            <div class="col-sm-6 col-lg-4 wow-outer">
+              <!-- Box Creative-->
+              <article class="box-creative wow slideInDown">
+                <div class="box-creative-icon linearicons-bubble-text"></div>
+                
+                <p>Catálogo completo de préstamos.</p>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow-outer">
+              <!-- Box Creative-->
+              <article class="box-creative wow slideInDown" data-wow-delay=".05s">
+                <div class="box-creative-icon linearicons-bubble-text"></div>
+                
+                <p>Calculadora de préstamos incorporada.</p>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow-outer">
+              <!-- Box Creative-->
+              <article class="box-creative wow slideInDown" data-wow-delay=".1s">
+                <div class="box-creative-icon linearicons-bubble-text"></div>
+                
+                <p>Últimas promociones de las principales instituciones financieras.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- A Few Words About Us-->
+      
+      <!-- Partners-->
+    
+    
+      <footer class="section footer-minimal bg-primary-darken">
+        <div class="container"> 
+          <div class="footer-minimal-inner"><a class="brand" href="index.html"><img src="images/logo-light-398x45.png" alt="" width="100" height="100"/></a>
+            <!-- Rights-->
+            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span>. Todos los derechos reservados. Diseño por <a href="index.html">Flash Préstamos</a></p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="preloader"> 
+      <div class="preloader-logo"><img src="images/logo-default-398x45.png" alt="" width="100" height="100"/>
+      </div>
+      <div class="preloader-body">
+        <div id="loadingProgressG">
+          <div class="loadingProgressG" id="loadingProgressG_1"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
+    <!-- Javascript-->
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
